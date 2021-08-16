@@ -2,7 +2,7 @@
 	<div class="search--search-form form-inline">
 		<label class="sr-only">Search</label>
 		<input class="form-control search-input" type="text" ng-model="vm.filters.search" placeholder="Search...">
-		
+
 		<select class="form-control"
 				ng-model="vm.filters.size"
 				ng-options="size for size in vm.sizes">
@@ -20,7 +20,7 @@
 				ng-options="cr.numeric as cr.string for cr in vm.crList">
 				<option value="">Min CR</option>
 			</select>
-		
+
 		<select class="form-control"
 				ng-model="vm.filters.maxCr"
 				ng-options="cr.numeric as cr.string for cr in vm.crList">
@@ -56,9 +56,6 @@
 		</select>
 		<button type="button" class="btn btn-default" data-toggle="modal" data-target="#sourcesModal">
 			Set Sources
-		</button>
-		<button type="button" class="btn btn-default" data-toggle="modal" data-target="#contentModal">
-			Manage Content
 		</button>
 	</div>
 	<div class="search--reset">

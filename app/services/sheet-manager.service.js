@@ -236,3 +236,4 @@ function sheetManager($q, googleSheetLoader, monsters, store) {
 	};
 }
 }());
+

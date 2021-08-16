@@ -146,3 +146,4 @@
 		delete sourcesById[id];
 	}
 })();
+
