@@ -1,7 +1,7 @@
 {
   "name": "5e-monsters",
   "version": "1.0.0",
-  "description": "Kobold Fight Club =================",
+  "description": "Kobold Fight Cemetery =================",
   "main": "index.html",
   "dependencies": {
     "angular": "^1.5.9",
